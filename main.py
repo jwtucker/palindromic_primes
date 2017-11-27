@@ -4,7 +4,7 @@ from math import log, ceil, floor
 class PalindromicNumbers:
 
     def __init__(self):
-        self.domain = [1, 20]
+        self.domain = [1, 1000]
 
     def check_all_in_domain(self):
         for i in range(self.domain[0], self.domain[1] + 1):
